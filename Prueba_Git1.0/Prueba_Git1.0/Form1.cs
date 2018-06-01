@@ -25,7 +25,7 @@ namespace Prueba_Git1._0
             if(textBox1.Text!="")
             { 
             dataGridView1.Rows.Add(textBox1.Text);
-            }
+                }
             //MessageBox.Show("Mi Primer_Repositorioen c#"+ p);
         }
     }
