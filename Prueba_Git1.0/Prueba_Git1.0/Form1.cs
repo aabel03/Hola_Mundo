@@ -17,5 +17,10 @@ namespace Prueba_Git1._0
             InitializeComponent();
             //MessageBox.Show("Mi Primer_Repositorioen c#");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Mi Primer_Repositorioen c#");
+        }
     }
 }
