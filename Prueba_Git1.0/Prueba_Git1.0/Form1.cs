@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Prueba_Git1._0
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         public Form1()
         {
             InitializeComponent();
-            MessageBox.Show("Mi Primer_Repositorioen c#");
+            //MessageBox.Show("Mi Primer_Repositorioen c#");
         }
     }
 }
