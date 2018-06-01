@@ -20,9 +20,13 @@ namespace Prueba_Git1._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int p;
-            p = 4;
-            MessageBox.Show("Mi Primer_Repositorioen c#"+ p);
+            //int p;
+            //p = 4;
+            if(textBox1.Text!="")
+            { 
+            dataGridView1.Rows.Add(textBox1.Text);
+            }
+            //MessageBox.Show("Mi Primer_Repositorioen c#"+ p);
         }
     }
 }
